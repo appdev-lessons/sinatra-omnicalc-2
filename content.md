@@ -18,7 +18,7 @@ Use the code that is already there along with what you learned about forms in th
 
 ## Better Errors: Navigating the backtrace frames
 
-Recall [when you learned about the `better_errors` gem](https://learn.firstdraft.com/lessons/103#better-error-pages) that we are including in all of our projects. On the right we expect to see a snippet of _our_ code where the error is arising. However, because of the way some errors propagate through the different files (including the hidden files located _inside_ of the gems we are using), sometimes the first snippet of code that you see and the REPL associated with it will _not_ be from your code!
+Recall [when you learned about the `better_errors` gem](https://learn.firstdraft.com/lessons/103-our-first-sinatra-app#better-error-pages) that we are including in all of our projects. On the right we expect to see a snippet of _our_ code where the error is arising. However, because of the way some errors propagate through the different files (including the hidden files located _inside_ of the gems we are using), sometimes the first snippet of code that you see and the REPL associated with it will _not_ be from your code!
 
 That may confuse you, but here's what you need to do if you see code that you don't recognize (keep an eye on the file path at the top of the code, it should point to one of the files in your Codespace):
 
